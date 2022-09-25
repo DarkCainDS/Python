@@ -1,0 +1,8 @@
+nombre = input("Introduce tu Nombre:")
+edad = int(input("Introduce tu edad:"))
+edad_mes= float(input("Introduce tu edad mas meses:"))
+numero_letra = complex(input("Introduce un numeor y letra:"))
+print("String", nombre)
+print("Entero", edad)
+print("Flotante", edad_mes)
+print("complejo", numero_letra)

@@ -1,0 +1,61 @@
+###Tipos de datos simples### (Solucionado)
+#Ejercicio 1
+print ("hello hackerman")
+#Ejercio 2 Hola Mundo dentro de una variable. (Solucionado)
+nombre= ("Hola hackerman")
+print(nombre)
+#Ejercicio 3 Pedir el nombre y mostrarlo en pantalla (Solucionado)
+nombre1 = input("Introduce tu nombre : ")
+print("Hola", nombre1)
+# Ejercicio 4 Mostrar ecuacion a resolver (Solucion)
+print (((3 + 2) / (2*5)) **2)
+# Ejerciocio 5 Escribir un programa que pregunte las horas trabajadas y coste por hora. (Solucionado)
+horasT=int(input("Introduce horas trabajas"))
+DineroxH=int(input("introduce el valor hora"))
+print(horasT * DineroxH)
+#Ejercicio 6 Ecuacion (Solucionado)
+n = int(input("Introduce un numero entero : "))       
+suma = n *(n+1) /2
+print("La suma de los primeros numeros enetero desde 1 hasta " + str(n) + "es" + str(suma))
+#Ejercicio 7 (IMC) (Solucionado)
+peso= int(input("Introduce tu peso: "))
+altura= float(input("Introduce tu altura: "))
+imc= float((peso)/ altura**2)
+print("tu " + str(peso) + "y " + str(altura) + "Corresponde a tu indice de masa corporal " + str(imc))
+#Ejercicio 8 Ecuacion (Solucion)
+n8= input("Introduce el dividendo: ")
+m8= input("Introduce el divisor: ")
+print(n8 + "entre" + m8 + "da un coeciente" + str(int(n8) // int(m8)) + "y un resto" + str(int(n8) % int(m8)))
+#Ejercicio 9 Inversion (Solucion)
+inversion9 = float(input("Introducir dinero a invertir:"))
+interes9= float(input("Introducir interes anual:"))
+años9 = int(input("Introducir años de inversion"))
+print("capital final: " + str(round(inversion9 *(interes9/100+1)**años9,2)))
+#Ejercicio 10 payaso y muñecas (Solucion)
+peso_payaso=112
+peso_muñeca=75
+payasos_10= int(input("Ingresar la cantidad de payasos a despachar"))
+muñecas_10= int(input("Ingresae la cantidad de muñecas a despachar"))
+peso_total = peso_payaso * payasos_10 + peso_muñeca * muñecas_10
+print("El peso total del pedido es " + str(peso_total))
+#Ejercicio 11 Interes anual (Solucion)
+ahorro_11= float(input("Ingrese la cantidad a ahorrar"))
+interes_11= 0.04
+balance1 =ahorro_11 * (1+ interes_11)
+print("Balance del primer año: " + str(round(balance1, 2)))
+balance2 =balance1 * (1+ interes_11)
+print("Balance del primer año: " + str(round(balance2, 2)))
+balance3 =balance2 * (1+ interes_11)
+print("Balance del primer año: " + str(round(balance3, 2)))
+
+#Ejercicio 12 Panaderia (Solucion)
+pan_añejo = int(input("Ingresar el pan añejo vendido en el dia:"))
+barrasdepan= 3.49
+descuento= 0.60
+costo= pan_añejo * barrasdepan *(1- descuento)
+print("Barras de pan vendidas" , pan_añejo)
+print("El precio de la barra de pan es " , str(float(barrasdepan)) + "€")
+print("El coste final a pagar es " + str(round(costo, 2)) + "€")
+print("El descuento sobre una barra no fresca es", str(descuento *100), "%")
+          
+                
